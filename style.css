@@ -1,0 +1,309 @@
+.navbar{
+    background-color: black;
+    color: #FFFFFF;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center ;
+
+
+}
+
+ .explore a:hover{
+  color: orange;
+ }
+
+ .about a:hover{
+color: orange;
+ }
+
+ .home a:hover{
+  color: red;
+ }
+
+ .contact a:hover{
+  color: blue;
+ }
+
+.nav_right{
+    display: flex;
+    justify-content:center;
+    gap: 50px;
+    align-items: center;
+    font-size: 40px;
+}
+
+.nav_left{
+    font-weight: bold;
+    font-size: 80px;
+    color: rgb(120, 131, 225);
+}
+
+.nav_right a{
+    text-decoration: none;
+    color:  white;
+}
+
+.header{
+    height: 50px;
+    background-color:white ;
+    color: rgb(211, 79, 235);
+    font-weight: 700;
+    font-size: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    font-family: 'Great Vibes', cursive;
+}
+
+.main_page{
+    display: flex;
+    justify-content: center;
+    gap: 250px;
+    background-color: rgb(197, 181, 165);
+}
+
+.main_right{
+padding-top: 70px;
+}
+
+.intro{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.quote{
+    font-size: 40px;
+    font-style: italic;
+    padding-top: 20px;
+    color: rgb(174, 54, 112)
+}
+
+.main_left img{
+height: 300px;
+width: 350px;
+border-radius: 1.2rem;
+padding-left: 0px;
+}
+
+.page_1{
+    background-image: url("assests/bg_1.jpeg");
+}
+
+.page_top{
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    padding-top: 50px;
+}
+
+.img1 img{
+    width: 350px;
+    height: 350px;
+    border-radius: 1.2rem;
+}
+
+.img2 img{
+    width: 350px;
+    height: 350px;
+    border-radius: 1.2rem;
+}
+
+.img3 img{
+    width: 350px;
+    height: 350px;
+    border-radius: 1.2rem;
+}
+
+.page_bottom{
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.img4 img{
+    width: 350px;
+    height: 350px;
+    border-radius: 1.2rem; 
+}
+
+.img5 img{
+    width: 350px;
+    height: 350px;
+    border-radius: 1.2rem; 
+}
+
+.img6 img{
+    width: 350px;
+    height: 350px;
+    border-radius: 1.2rem;
+}
+
+
+.footer{
+    background-color: black;
+    padding-top: 10px;
+     }
+
+   .footer_main{
+    padding-top: -30px;
+    padding-left: 50px;
+    display: flex;
+    justify-content: space-between;
+   }
+
+   .travelset{
+    color:rgb(120, 131, 225);
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+    font-weight: bold;
+
+
+   }
+
+   .harsh{
+    font-size: larger;
+    font-family: 'Playfair Display', serif;
+    color: white;
+    padding-top: 30px;
+    }
+
+    .home_ft{
+      color:rgb(120, 131, 225);
+      font-size: 30px;
+      font-weight: bold;
+    }
+
+    .abt a{
+      text-decoration: none;
+      color: white;
+      padding-top: 10px;
+       
+    }
+    
+    .abt{
+      padding-top: 20px;
+      font-size: large;
+    }
+
+    .dest{
+      color: white;
+      padding-top: 10px;
+      font-size: larger;
+      padding-top: 20px;
+    }
+
+    .cont a{
+      text-decoration: none;
+      color: white;
+    }
+
+    .cont{
+      padding-top: 10px;
+      padding-top: 20px;
+      font-size: large;
+    }
+
+    .follow{
+      color:rgb(120, 131, 225);
+      font-size: 30px;
+      font-weight: bold;
+    }
+
+    .insta img{
+      height: 30px;
+      width: 30px;
+    }
+
+    .mail img{
+      height: 30px;
+      width: 30px;
+    }
+
+    .face img{
+      height: 30px;
+      width: 30px;
+    }
+
+    .git img{
+      height: 30px;
+      width: 30px;
+    }
+
+    .twitter img{
+      height: 30px;
+      width: 30px;
+    }
+
+    .follow{
+      padding-right: 50px;
+    }
+
+    .social {
+      display: flex;
+      padding-top: 30px;
+      padding-right: 50px;
+      gap: 20px;
+    }
+
+    
+
+    .details_ft{
+      padding-top: 20px;
+      padding-left: 50px;
+    }
+
+    .rajth{
+      color: white;
+    padding-top: 30px;
+    font-size: medium;
+    font-family: 'Poppins', sans-serif;
+    }
+
+    .pitaji{
+      color: rgb(227, 66, 66);
+    padding-top: 30px;
+    font-size: medium;
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 20px;
+    }
+
+    .details_ft{
+      padding-top: 20px;
+    }
+
+    .footer_right{
+      padding-right: 50px;
+    }
+
+    .line_ft{
+      color: gray;
+    }
+
+    .footer_down{
+      display: flex;
+      gap: 5px;
+      justify-content: center;
+       align-items: center;
+       padding-bottom: 10px;
+    }
+
+    .travel{
+      color: rgb(120, 131, 225);
+      font-family: 'Poppins', sans-serif ;
+    }
+
+    .copy{
+      color: white;
+      font-family: 'Poppins', sans-serif ;
+    }
+
+    .wave{
+     
+      background-color: rgba(221, 160, 221, 0.393);
+      color: #000;
+      position: relative;
+      top: 10px;
+      
+    }
